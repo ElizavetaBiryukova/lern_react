@@ -1,5 +1,5 @@
 function Person({ firstName, lastName, email, id, img }) {
-    return <div>
+    return <div className="card">
         <img src={img} alt="" />
         <h3>{firstName} {lastName}</h3>
         <h4>{email}</h4>
